@@ -23,14 +23,14 @@ Date_enter_by_User = User_Entry.split("/")
 
 # To change every element of Date_of_birth list from string to int
 index1 = 0	
-for i in Date_of_birth:
-	Date_of_birth[index1] = int(i)
+for item1 in Date_of_birth:
+	Date_of_birth[index1] = int(item1)
 	index1 += 1
 
 # To change every element of Date_enter_by_User list from string to int
 index2 = 0
-for j in Date_enter_by_User:
-	Date_enter_by_User[index2] = int(j)
+for item2 in Date_enter_by_User:
+	Date_enter_by_User[index2] = int(item2)
 	index2 += 1
 
 # Logic to calculate the age of person
